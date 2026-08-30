@@ -15,7 +15,7 @@ The benchmark consists of **two complementary test sets**, each designed to eval
 | Dataset | Purpose | Description |
 |-------|--------|-------------|
 | `detailed_prompt_test` | Scalability benchmark | Well-specified and detailed building modeling prompts |
-| `robust_prompt_test` | Robustness benchmark | Noisy and high-level user input prompts |
+| `general_prompt_test` | Robustness benchmark | Noisy and high-level user input prompts |
 
 Each test set follows a consistent internal structure:
 - `*_prompts.py`  
@@ -83,7 +83,7 @@ Each file name ends with **two numeric suffixes**, encoding the **HVAC system ty
 
 ## (2) Robustness Benchmark
 
-The `robust_prompt_test` dataset evaluates the robustness of LLMs to **noisy and imperfect user inputs**, simulating real-world interactions.
+The `general_prompt_test` dataset evaluates the robustness of LLMs to **noisy and imperfect user inputs**, simulating real-world interactions.
 
 ### Noise Characteristics
 
