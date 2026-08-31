@@ -2,24 +2,24 @@
 
 
 BuildingSurface:Detailed,Floor 1 0,Floor,ExtSlabCarpet,Thermal Zone 1,,Ground,,NoSun,NoWind,,,0,0,0,25.00,0,0,25.00,12.00,0,0,12.00,0;
-BuildingSurface:Detailed,Floor 2 0,Floor,ExtSlabCarpet,Thermal Zone 2,,Ground,,NoSun,NoWind,,,0,12.00,0,10.00,12.00,0,10.00,6.00,0,0,6.00,0;
-BuildingSurface:Detailed,Floor 3 0,Floor,ExtSlabCarpet,Thermal Zone 3,,Ground,,NoSun,NoWind,,,15.00,12.00,0,25.00,12.00,0,25.00,6.00,0,15.00,6.00,0;
+BuildingSurface:Detailed,Floor 2 0,Floor,ExtSlabCarpet,Thermal Zone 2,,Ground,,NoSun,NoWind,,,0,12.00,0,10.00,12.00,0,10.00,18.00,0,0,18.00,0;
+BuildingSurface:Detailed,Floor 3 0,Floor,ExtSlabCarpet,Thermal Zone 3,,Ground,,NoSun,NoWind,,,15.00,12.00,0,25.00,12.00,0,25.00,18.00,0,15.00,18.00,0;
 
 
 BuildingSurface:Detailed,Ceiling 1 0,Ceiling,Interior Ceiling,Thermal Zone 1,,Surface,Floor 1 1,NoSun,NoWind,,,0,0,3.50,25.00,0,3.50,25.00,12.00,3.50,0,12.00,3.50;
-BuildingSurface:Detailed,Ceiling 2 0,Ceiling,Interior Ceiling,Thermal Zone 2,,Surface,Floor 2 1,NoSun,NoWind,,,0,12.00,3.50,10.00,12.00,3.50,10.00,6.00,3.50,0,6.00,3.50;
-BuildingSurface:Detailed,Ceiling 3 0,Ceiling,Interior Ceiling,Thermal Zone 3,,Surface,Floor 3 1,NoSun,NoWind,,,15.00,12.00,3.50,25.00,12.00,3.50,25.00,6.00,3.50,15.00,6.00,3.50;
+BuildingSurface:Detailed,Ceiling 2 0,Ceiling,Interior Ceiling,Thermal Zone 2,,Surface,Floor 2 1,NoSun,NoWind,,,0,12.00,3.50,10.00,12.00,3.50,10.00,18.00,3.50,0,18.00,3.50;
+BuildingSurface:Detailed,Ceiling 3 0,Ceiling,Interior Ceiling,Thermal Zone 3,,Surface,Floor 3 1,NoSun,NoWind,,,15.00,12.00,3.50,25.00,12.00,3.50,25.00,18.00,3.50,15.00,18.00,3.50;
 
 BuildingSurface:Detailed,Face 10 0,Wall,Ext Wall,Thermal Zone 1,,Outdoors,,SunExposed,WindExposed,,,25.00,0,3.50,0,0,3.50,0,0,0,25.00,0,0;
 BuildingSurface:Detailed,Face 2 0,Wall,Ext Wall,Thermal Zone 1,,Outdoors,,SunExposed,WindExposed,,,0,0,3.50,0,12.00,3.50,0,12.00,0,0,0,0;
 BuildingSurface:Detailed,Face 5 0,Wall,Ext Wall,Thermal Zone 1,,Outdoors,,SunExposed,WindExposed,,,10.00,12.00,3.50,15.00,12.00,3.50,15.00,12.00,0,10.00,12.00,0;
 BuildingSurface:Detailed,Face 8 0,Wall,Ext Wall,Thermal Zone 1,,Outdoors,,SunExposed,WindExposed,,,25.00,12.00,3.50,25.00,0,3.50,25.00,0,0,25.00,12.00,0;
-BuildingSurface:Detailed,Face 14 0,Wall,Ext Wall,Thermal Zone 2,,Outdoors,,SunExposed,WindExposed,,,0,12.00,3.50,0,6.00,3.50,0,6.00,0,0,12.00,0;
-BuildingSurface:Detailed,Face 16 0,Wall,Ext Wall,Thermal Zone 2,,Outdoors,,SunExposed,WindExposed,,,0,6.00,3.50,10.00,6.00,3.50,10.00,6.00,0,0,6.00,0;
-BuildingSurface:Detailed,Face 18 0,Wall,Ext Wall,Thermal Zone 2,,Outdoors,,SunExposed,WindExposed,,,10.00,6.00,3.50,10.00,12.00,3.50,10.00,12.00,0,10.00,6.00,0;
-BuildingSurface:Detailed,Face 23 0,Wall,Ext Wall,Thermal Zone 3,,Outdoors,,SunExposed,WindExposed,,,25.00,6.00,3.50,25.00,12.00,3.50,25.00,12.00,0,25.00,6.00,0;
-BuildingSurface:Detailed,Face 26 0,Wall,Ext Wall,Thermal Zone 3,,Outdoors,,SunExposed,WindExposed,,,15.00,12.00,3.50,15.00,6.00,3.50,15.00,6.00,0,15.00,12.00,0;
-BuildingSurface:Detailed,Face 28 0,Wall,Ext Wall,Thermal Zone 3,,Outdoors,,SunExposed,WindExposed,,,15.00,6.00,3.50,25.00,6.00,3.50,25.00,6.00,0,15.00,6.00,0;
+BuildingSurface:Detailed,Face 14 0,Wall,Ext Wall,Thermal Zone 2,,Outdoors,,SunExposed,WindExposed,,,0,12.00,3.50,0,18.00,3.50,0,18.00,0,0,12.00,0;
+BuildingSurface:Detailed,Face 16 0,Wall,Ext Wall,Thermal Zone 2,,Outdoors,,SunExposed,WindExposed,,,0,18.00,3.50,10.00,18.00,3.50,10.00,18.00,0,0,18.00,0;
+BuildingSurface:Detailed,Face 18 0,Wall,Ext Wall,Thermal Zone 2,,Outdoors,,SunExposed,WindExposed,,,10.00,18.00,3.50,10.00,12.00,3.50,10.00,12.00,0,10.00,18.00,0;
+BuildingSurface:Detailed,Face 23 0,Wall,Ext Wall,Thermal Zone 3,,Outdoors,,SunExposed,WindExposed,,,25.00,18.00,3.50,25.00,12.00,3.50,25.00,12.00,0,25.00,18.00,0;
+BuildingSurface:Detailed,Face 26 0,Wall,Ext Wall,Thermal Zone 3,,Outdoors,,SunExposed,WindExposed,,,15.00,12.00,3.50,15.00,18.00,3.50,15.00,18.00,0,15.00,12.00,0;
+BuildingSurface:Detailed,Face 28 0,Wall,Ext Wall,Thermal Zone 3,,Outdoors,,SunExposed,WindExposed,,,15.00,18.00,3.50,25.00,18.00,3.50,25.00,18.00,0,15.00,18.00,0;
 
 BuildingSurface:Detailed,Face 4 0,Wall,Interior Wall,Thermal Zone 1,,Surface,Face 20 0,NoSun,NoWind,,,0,12.00,3.50,10.00,12.00,3.50,10.00,12.00,0,0,12.00,0;
 BuildingSurface:Detailed,Face 7 0,Wall,Interior Wall,Thermal Zone 1,,Surface,Face 25 0,NoSun,NoWind,,,15.00,12.00,3.50,25.00,12.00,3.50,25.00,12.00,0,15.00,12.00,0;
@@ -28,21 +28,21 @@ BuildingSurface:Detailed,Face 25 0,Wall,Interior Wall,Thermal Zone 3,,Surface,Fa
 
 ! ewin
 FenestrationSurface:Detailed,Face 9 0,Window,Ext Window,Face 8 0,,,,,,25.00,0.01,2.33,25.00,0.01,1.17,25.00,11.99,1.17,25.00,11.99,2.33;
-FenestrationSurface:Detailed,Face 19 0,Window,Ext Window,Face 18 0,,,,,,10.00,12.01,2.33,10.00,12.01,1.17,10.00,5.99,1.17,10.00,5.99,2.33;
-FenestrationSurface:Detailed,Face 24 0,Window,Ext Window,Face 23 0,,,,,,25.00,12.01,2.33,25.00,12.01,1.17,25.00,5.99,1.17,25.00,5.99,2.33;
+FenestrationSurface:Detailed,Face 19 0,Window,Ext Window,Face 18 0,,,,,,10.00,12.01,2.33,10.00,12.01,1.17,10.00,17.99,1.17,10.00,17.99,2.33;
+FenestrationSurface:Detailed,Face 24 0,Window,Ext Window,Face 23 0,,,,,,25.00,12.01,2.33,25.00,12.01,1.17,25.00,17.99,1.17,25.00,17.99,2.33;
 
 ! nwin
 FenestrationSurface:Detailed,Face 6 0,Window,Ext Window,Face 5 0,,,,,,14.99,12.00,2.33,14.99,12.00,1.17,10.01,12.00,1.17,10.01,12.00,2.33;
-FenestrationSurface:Detailed,Face 17 0,Window,Ext Window,Face 16 0,,,,,,9.99,6.00,2.33,9.99,6.00,1.17,0.01,6.00,1.17,0.01,6.00,2.33;
-FenestrationSurface:Detailed,Face 29 0,Window,Ext Window,Face 28 0,,,,,,24.99,6.00,2.33,24.99,6.00,1.17,15.01,6.00,1.17,15.01,6.00,2.33;
+FenestrationSurface:Detailed,Face 17 0,Window,Ext Window,Face 16 0,,,,,,9.99,18.00,2.33,9.99,18.00,1.17,0.01,18.00,1.17,0.01,18.00,2.33;
+FenestrationSurface:Detailed,Face 29 0,Window,Ext Window,Face 28 0,,,,,,24.99,18.00,2.33,24.99,18.00,1.17,15.01,18.00,1.17,15.01,18.00,2.33;
 
 ! swin
 FenestrationSurface:Detailed,Face 11 0,Window,Ext Window,Face 10 0,,,,,,0.01,0,2.33,0.01,0,1.17,24.99,0,1.17,24.99,0,2.33;
 
 ! wwin
 FenestrationSurface:Detailed,Face 3 0,Window,Ext Window,Face 2 0,,,,,,0,11.99,2.33,0,11.99,1.17,0,0.01,1.17,0,0.01,2.33;
-FenestrationSurface:Detailed,Face 15 0,Window,Ext Window,Face 14 0,,,,,,0,5.99,2.33,0,5.99,1.17,0,12.01,1.17,0,12.01,2.33;
-FenestrationSurface:Detailed,Face 27 0,Window,Ext Window,Face 26 0,,,,,,15.00,5.99,2.33,15.00,5.99,1.17,15.00,12.01,1.17,15.00,12.01,2.33;
+FenestrationSurface:Detailed,Face 15 0,Window,Ext Window,Face 14 0,,,,,,0,17.99,2.33,0,17.99,1.17,0,12.01,1.17,0,12.01,2.33;
+FenestrationSurface:Detailed,Face 27 0,Window,Ext Window,Face 26 0,,,,,,15.00,17.99,2.33,15.00,17.99,1.17,15.00,12.01,1.17,15.00,12.01,2.33;
 
 Zone,Thermal Zone 1,0.00,0,0,0.00,,1,,,,,,Yes;
 Zone,Thermal Zone 2,0.00,0,0,0.00,,1,,,,,,Yes;
@@ -50,24 +50,24 @@ Zone,Thermal Zone 3,0.00,0,0,0.00,,1,,,,,,Yes;
 
 
 BuildingSurface:Detailed,Floor 1 1,Floor,Interior Floor,Thermal Zone 4,,Surface,Ceiling 1 0,NoSun,NoWind,,,0,0,0,25.00,0,0,25.00,12.00,0,0,12.00,0;
-BuildingSurface:Detailed,Floor 2 1,Floor,Interior Floor,Thermal Zone 5,,Surface,Ceiling 2 0,NoSun,NoWind,,,0,12.00,0,10.00,12.00,0,10.00,6.00,0,0,6.00,0;
-BuildingSurface:Detailed,Floor 3 1,Floor,Interior Floor,Thermal Zone 6,,Surface,Ceiling 3 0,NoSun,NoWind,,,15.00,12.00,0,25.00,12.00,0,25.00,6.00,0,15.00,6.00,0;
+BuildingSurface:Detailed,Floor 2 1,Floor,Interior Floor,Thermal Zone 5,,Surface,Ceiling 2 0,NoSun,NoWind,,,0,12.00,0,10.00,12.00,0,10.00,18.00,0,0,18.00,0;
+BuildingSurface:Detailed,Floor 3 1,Floor,Interior Floor,Thermal Zone 6,,Surface,Ceiling 3 0,NoSun,NoWind,,,15.00,12.00,0,25.00,12.00,0,25.00,18.00,0,15.00,18.00,0;
 
 
 BuildingSurface:Detailed,Ceiling 1 1,Ceiling,Interior Ceiling,Thermal Zone 4,,Surface,Floor 1 2,NoSun,NoWind,,,0,0,3.50,25.00,0,3.50,25.00,12.00,3.50,0,12.00,3.50;
-BuildingSurface:Detailed,Ceiling 2 1,Ceiling,Interior Ceiling,Thermal Zone 5,,Surface,Floor 2 2,NoSun,NoWind,,,0,12.00,3.50,10.00,12.00,3.50,10.00,6.00,3.50,0,6.00,3.50;
-BuildingSurface:Detailed,Ceiling 3 1,Ceiling,Interior Ceiling,Thermal Zone 6,,Surface,Floor 3 2,NoSun,NoWind,,,15.00,12.00,3.50,25.00,12.00,3.50,25.00,6.00,3.50,15.00,6.00,3.50;
+BuildingSurface:Detailed,Ceiling 2 1,Ceiling,Interior Ceiling,Thermal Zone 5,,Surface,Floor 2 2,NoSun,NoWind,,,0,12.00,3.50,10.00,12.00,3.50,10.00,18.00,3.50,0,18.00,3.50;
+BuildingSurface:Detailed,Ceiling 3 1,Ceiling,Interior Ceiling,Thermal Zone 6,,Surface,Floor 3 2,NoSun,NoWind,,,15.00,12.00,3.50,25.00,12.00,3.50,25.00,18.00,3.50,15.00,18.00,3.50;
 
 BuildingSurface:Detailed,Face 10 1,Wall,Ext Wall,Thermal Zone 4,,Outdoors,,SunExposed,WindExposed,,,25.00,0,3.50,0,0,3.50,0,0,0,25.00,0,0;
 BuildingSurface:Detailed,Face 2 1,Wall,Ext Wall,Thermal Zone 4,,Outdoors,,SunExposed,WindExposed,,,0,0,3.50,0,12.00,3.50,0,12.00,0,0,0,0;
 BuildingSurface:Detailed,Face 5 1,Wall,Ext Wall,Thermal Zone 4,,Outdoors,,SunExposed,WindExposed,,,10.00,12.00,3.50,15.00,12.00,3.50,15.00,12.00,0,10.00,12.00,0;
 BuildingSurface:Detailed,Face 8 1,Wall,Ext Wall,Thermal Zone 4,,Outdoors,,SunExposed,WindExposed,,,25.00,12.00,3.50,25.00,0,3.50,25.00,0,0,25.00,12.00,0;
-BuildingSurface:Detailed,Face 14 1,Wall,Ext Wall,Thermal Zone 5,,Outdoors,,SunExposed,WindExposed,,,0,12.00,3.50,0,6.00,3.50,0,6.00,0,0,12.00,0;
-BuildingSurface:Detailed,Face 16 1,Wall,Ext Wall,Thermal Zone 5,,Outdoors,,SunExposed,WindExposed,,,0,6.00,3.50,10.00,6.00,3.50,10.00,6.00,0,0,6.00,0;
-BuildingSurface:Detailed,Face 18 1,Wall,Ext Wall,Thermal Zone 5,,Outdoors,,SunExposed,WindExposed,,,10.00,6.00,3.50,10.00,12.00,3.50,10.00,12.00,0,10.00,6.00,0;
-BuildingSurface:Detailed,Face 23 1,Wall,Ext Wall,Thermal Zone 6,,Outdoors,,SunExposed,WindExposed,,,25.00,6.00,3.50,25.00,12.00,3.50,25.00,12.00,0,25.00,6.00,0;
-BuildingSurface:Detailed,Face 26 1,Wall,Ext Wall,Thermal Zone 6,,Outdoors,,SunExposed,WindExposed,,,15.00,12.00,3.50,15.00,6.00,3.50,15.00,6.00,0,15.00,12.00,0;
-BuildingSurface:Detailed,Face 28 1,Wall,Ext Wall,Thermal Zone 6,,Outdoors,,SunExposed,WindExposed,,,15.00,6.00,3.50,25.00,6.00,3.50,25.00,6.00,0,15.00,6.00,0;
+BuildingSurface:Detailed,Face 14 1,Wall,Ext Wall,Thermal Zone 5,,Outdoors,,SunExposed,WindExposed,,,0,12.00,3.50,0,18.00,3.50,0,18.00,0,0,12.00,0;
+BuildingSurface:Detailed,Face 16 1,Wall,Ext Wall,Thermal Zone 5,,Outdoors,,SunExposed,WindExposed,,,0,18.00,3.50,10.00,18.00,3.50,10.00,18.00,0,0,18.00,0;
+BuildingSurface:Detailed,Face 18 1,Wall,Ext Wall,Thermal Zone 5,,Outdoors,,SunExposed,WindExposed,,,10.00,18.00,3.50,10.00,12.00,3.50,10.00,12.00,0,10.00,18.00,0;
+BuildingSurface:Detailed,Face 23 1,Wall,Ext Wall,Thermal Zone 6,,Outdoors,,SunExposed,WindExposed,,,25.00,18.00,3.50,25.00,12.00,3.50,25.00,12.00,0,25.00,18.00,0;
+BuildingSurface:Detailed,Face 26 1,Wall,Ext Wall,Thermal Zone 6,,Outdoors,,SunExposed,WindExposed,,,15.00,12.00,3.50,15.00,18.00,3.50,15.00,18.00,0,15.00,12.00,0;
+BuildingSurface:Detailed,Face 28 1,Wall,Ext Wall,Thermal Zone 6,,Outdoors,,SunExposed,WindExposed,,,15.00,18.00,3.50,25.00,18.00,3.50,25.00,18.00,0,15.00,18.00,0;
 
 BuildingSurface:Detailed,Face 4 1,Wall,Interior Wall,Thermal Zone 4,,Surface,Face 20 1,NoSun,NoWind,,,0,12.00,3.50,10.00,12.00,3.50,10.00,12.00,0,0,12.00,0;
 BuildingSurface:Detailed,Face 7 1,Wall,Interior Wall,Thermal Zone 4,,Surface,Face 25 1,NoSun,NoWind,,,15.00,12.00,3.50,25.00,12.00,3.50,25.00,12.00,0,15.00,12.00,0;
@@ -76,21 +76,21 @@ BuildingSurface:Detailed,Face 25 1,Wall,Interior Wall,Thermal Zone 6,,Surface,Fa
 
 ! ewin
 FenestrationSurface:Detailed,Face 9 1,Window,Ext Window,Face 8 1,,,,,,25.00,0.01,2.33,25.00,0.01,1.17,25.00,11.99,1.17,25.00,11.99,2.33;
-FenestrationSurface:Detailed,Face 19 1,Window,Ext Window,Face 18 1,,,,,,10.00,12.01,2.33,10.00,12.01,1.17,10.00,5.99,1.17,10.00,5.99,2.33;
-FenestrationSurface:Detailed,Face 24 1,Window,Ext Window,Face 23 1,,,,,,25.00,12.01,2.33,25.00,12.01,1.17,25.00,5.99,1.17,25.00,5.99,2.33;
+FenestrationSurface:Detailed,Face 19 1,Window,Ext Window,Face 18 1,,,,,,10.00,12.01,2.33,10.00,12.01,1.17,10.00,17.99,1.17,10.00,17.99,2.33;
+FenestrationSurface:Detailed,Face 24 1,Window,Ext Window,Face 23 1,,,,,,25.00,12.01,2.33,25.00,12.01,1.17,25.00,17.99,1.17,25.00,17.99,2.33;
 
 ! nwin
 FenestrationSurface:Detailed,Face 6 1,Window,Ext Window,Face 5 1,,,,,,14.99,12.00,2.33,14.99,12.00,1.17,10.01,12.00,1.17,10.01,12.00,2.33;
-FenestrationSurface:Detailed,Face 17 1,Window,Ext Window,Face 16 1,,,,,,9.99,6.00,2.33,9.99,6.00,1.17,0.01,6.00,1.17,0.01,6.00,2.33;
-FenestrationSurface:Detailed,Face 29 1,Window,Ext Window,Face 28 1,,,,,,24.99,6.00,2.33,24.99,6.00,1.17,15.01,6.00,1.17,15.01,6.00,2.33;
+FenestrationSurface:Detailed,Face 17 1,Window,Ext Window,Face 16 1,,,,,,9.99,18.00,2.33,9.99,18.00,1.17,0.01,18.00,1.17,0.01,18.00,2.33;
+FenestrationSurface:Detailed,Face 29 1,Window,Ext Window,Face 28 1,,,,,,24.99,18.00,2.33,24.99,18.00,1.17,15.01,18.00,1.17,15.01,18.00,2.33;
 
 ! swin
 FenestrationSurface:Detailed,Face 11 1,Window,Ext Window,Face 10 1,,,,,,0.01,0,2.33,0.01,0,1.17,24.99,0,1.17,24.99,0,2.33;
 
 ! wwin
 FenestrationSurface:Detailed,Face 3 1,Window,Ext Window,Face 2 1,,,,,,0,11.99,2.33,0,11.99,1.17,0,0.01,1.17,0,0.01,2.33;
-FenestrationSurface:Detailed,Face 15 1,Window,Ext Window,Face 14 1,,,,,,0,5.99,2.33,0,5.99,1.17,0,12.01,1.17,0,12.01,2.33;
-FenestrationSurface:Detailed,Face 27 1,Window,Ext Window,Face 26 1,,,,,,15.00,5.99,2.33,15.00,5.99,1.17,15.00,12.01,1.17,15.00,12.01,2.33;
+FenestrationSurface:Detailed,Face 15 1,Window,Ext Window,Face 14 1,,,,,,0,17.99,2.33,0,17.99,1.17,0,12.01,1.17,0,12.01,2.33;
+FenestrationSurface:Detailed,Face 27 1,Window,Ext Window,Face 26 1,,,,,,15.00,17.99,2.33,15.00,17.99,1.17,15.00,12.01,1.17,15.00,12.01,2.33;
 
 Zone,Thermal Zone 4,0.00,0,0,3.50,,1,,,,,,Yes;
 Zone,Thermal Zone 5,0.00,0,0,3.50,,1,,,,,,Yes;
@@ -98,24 +98,24 @@ Zone,Thermal Zone 6,0.00,0,0,3.50,,1,,,,,,Yes;
 
 
 BuildingSurface:Detailed,Floor 1 2,Floor,Interior Floor,Thermal Zone 7,,Surface,Ceiling 1 1,NoSun,NoWind,,,0,0,0,25.00,0,0,25.00,12.00,0,0,12.00,0;
-BuildingSurface:Detailed,Floor 2 2,Floor,Interior Floor,Thermal Zone 8,,Surface,Ceiling 2 1,NoSun,NoWind,,,0,12.00,0,10.00,12.00,0,10.00,6.00,0,0,6.00,0;
-BuildingSurface:Detailed,Floor 3 2,Floor,Interior Floor,Thermal Zone 9,,Surface,Ceiling 3 1,NoSun,NoWind,,,15.00,12.00,0,25.00,12.00,0,25.00,6.00,0,15.00,6.00,0;
+BuildingSurface:Detailed,Floor 2 2,Floor,Interior Floor,Thermal Zone 8,,Surface,Ceiling 2 1,NoSun,NoWind,,,0,12.00,0,10.00,12.00,0,10.00,18.00,0,0,18.00,0;
+BuildingSurface:Detailed,Floor 3 2,Floor,Interior Floor,Thermal Zone 9,,Surface,Ceiling 3 1,NoSun,NoWind,,,15.00,12.00,0,25.00,12.00,0,25.00,18.00,0,15.00,18.00,0;
 
 
 BuildingSurface:Detailed,Roof 1 2,Roof,Ext Roof,Thermal Zone 7,,Outdoors,,SunExposed,WindExposed,,,0,0,3.50,25.00,0,3.50,25.00,12.00,3.50,0,12.00,3.50;
-BuildingSurface:Detailed,Roof 2 2,Roof,Ext Roof,Thermal Zone 8,,Outdoors,,SunExposed,WindExposed,,,0,12.00,3.50,10.00,12.00,3.50,10.00,6.00,3.50,0,6.00,3.50;
-BuildingSurface:Detailed,Roof 3 2,Roof,Ext Roof,Thermal Zone 9,,Outdoors,,SunExposed,WindExposed,,,15.00,12.00,3.50,25.00,12.00,3.50,25.00,6.00,3.50,15.00,6.00,3.50;
+BuildingSurface:Detailed,Roof 2 2,Roof,Ext Roof,Thermal Zone 8,,Outdoors,,SunExposed,WindExposed,,,0,12.00,3.50,10.00,12.00,3.50,10.00,18.00,3.50,0,18.00,3.50;
+BuildingSurface:Detailed,Roof 3 2,Roof,Ext Roof,Thermal Zone 9,,Outdoors,,SunExposed,WindExposed,,,15.00,12.00,3.50,25.00,12.00,3.50,25.00,18.00,3.50,15.00,18.00,3.50;
 
 BuildingSurface:Detailed,Face 10 2,Wall,Ext Wall,Thermal Zone 7,,Outdoors,,SunExposed,WindExposed,,,25.00,0,3.50,0,0,3.50,0,0,0,25.00,0,0;
 BuildingSurface:Detailed,Face 2 2,Wall,Ext Wall,Thermal Zone 7,,Outdoors,,SunExposed,WindExposed,,,0,0,3.50,0,12.00,3.50,0,12.00,0,0,0,0;
 BuildingSurface:Detailed,Face 5 2,Wall,Ext Wall,Thermal Zone 7,,Outdoors,,SunExposed,WindExposed,,,10.00,12.00,3.50,15.00,12.00,3.50,15.00,12.00,0,10.00,12.00,0;
 BuildingSurface:Detailed,Face 8 2,Wall,Ext Wall,Thermal Zone 7,,Outdoors,,SunExposed,WindExposed,,,25.00,12.00,3.50,25.00,0,3.50,25.00,0,0,25.00,12.00,0;
-BuildingSurface:Detailed,Face 14 2,Wall,Ext Wall,Thermal Zone 8,,Outdoors,,SunExposed,WindExposed,,,0,12.00,3.50,0,6.00,3.50,0,6.00,0,0,12.00,0;
-BuildingSurface:Detailed,Face 16 2,Wall,Ext Wall,Thermal Zone 8,,Outdoors,,SunExposed,WindExposed,,,0,6.00,3.50,10.00,6.00,3.50,10.00,6.00,0,0,6.00,0;
-BuildingSurface:Detailed,Face 18 2,Wall,Ext Wall,Thermal Zone 8,,Outdoors,,SunExposed,WindExposed,,,10.00,6.00,3.50,10.00,12.00,3.50,10.00,12.00,0,10.00,6.00,0;
-BuildingSurface:Detailed,Face 23 2,Wall,Ext Wall,Thermal Zone 9,,Outdoors,,SunExposed,WindExposed,,,25.00,6.00,3.50,25.00,12.00,3.50,25.00,12.00,0,25.00,6.00,0;
-BuildingSurface:Detailed,Face 26 2,Wall,Ext Wall,Thermal Zone 9,,Outdoors,,SunExposed,WindExposed,,,15.00,12.00,3.50,15.00,6.00,3.50,15.00,6.00,0,15.00,12.00,0;
-BuildingSurface:Detailed,Face 28 2,Wall,Ext Wall,Thermal Zone 9,,Outdoors,,SunExposed,WindExposed,,,15.00,6.00,3.50,25.00,6.00,3.50,25.00,6.00,0,15.00,6.00,0;
+BuildingSurface:Detailed,Face 14 2,Wall,Ext Wall,Thermal Zone 8,,Outdoors,,SunExposed,WindExposed,,,0,12.00,3.50,0,18.00,3.50,0,18.00,0,0,12.00,0;
+BuildingSurface:Detailed,Face 16 2,Wall,Ext Wall,Thermal Zone 8,,Outdoors,,SunExposed,WindExposed,,,0,18.00,3.50,10.00,18.00,3.50,10.00,18.00,0,0,18.00,0;
+BuildingSurface:Detailed,Face 18 2,Wall,Ext Wall,Thermal Zone 8,,Outdoors,,SunExposed,WindExposed,,,10.00,18.00,3.50,10.00,12.00,3.50,10.00,12.00,0,10.00,18.00,0;
+BuildingSurface:Detailed,Face 23 2,Wall,Ext Wall,Thermal Zone 9,,Outdoors,,SunExposed,WindExposed,,,25.00,18.00,3.50,25.00,12.00,3.50,25.00,12.00,0,25.00,18.00,0;
+BuildingSurface:Detailed,Face 26 2,Wall,Ext Wall,Thermal Zone 9,,Outdoors,,SunExposed,WindExposed,,,15.00,12.00,3.50,15.00,18.00,3.50,15.00,18.00,0,15.00,12.00,0;
+BuildingSurface:Detailed,Face 28 2,Wall,Ext Wall,Thermal Zone 9,,Outdoors,,SunExposed,WindExposed,,,15.00,18.00,3.50,25.00,18.00,3.50,25.00,18.00,0,15.00,18.00,0;
 
 BuildingSurface:Detailed,Face 4 2,Wall,Interior Wall,Thermal Zone 7,,Surface,Face 20 2,NoSun,NoWind,,,0,12.00,3.50,10.00,12.00,3.50,10.00,12.00,0,0,12.00,0;
 BuildingSurface:Detailed,Face 7 2,Wall,Interior Wall,Thermal Zone 7,,Surface,Face 25 2,NoSun,NoWind,,,15.00,12.00,3.50,25.00,12.00,3.50,25.00,12.00,0,15.00,12.00,0;
@@ -124,21 +124,21 @@ BuildingSurface:Detailed,Face 25 2,Wall,Interior Wall,Thermal Zone 9,,Surface,Fa
 
 ! ewin
 FenestrationSurface:Detailed,Face 9 2,Window,Ext Window,Face 8 2,,,,,,25.00,0.01,2.33,25.00,0.01,1.17,25.00,11.99,1.17,25.00,11.99,2.33;
-FenestrationSurface:Detailed,Face 19 2,Window,Ext Window,Face 18 2,,,,,,10.00,12.01,2.33,10.00,12.01,1.17,10.00,5.99,1.17,10.00,5.99,2.33;
-FenestrationSurface:Detailed,Face 24 2,Window,Ext Window,Face 23 2,,,,,,25.00,12.01,2.33,25.00,12.01,1.17,25.00,5.99,1.17,25.00,5.99,2.33;
+FenestrationSurface:Detailed,Face 19 2,Window,Ext Window,Face 18 2,,,,,,10.00,12.01,2.33,10.00,12.01,1.17,10.00,17.99,1.17,10.00,17.99,2.33;
+FenestrationSurface:Detailed,Face 24 2,Window,Ext Window,Face 23 2,,,,,,25.00,12.01,2.33,25.00,12.01,1.17,25.00,17.99,1.17,25.00,17.99,2.33;
 
 ! nwin
 FenestrationSurface:Detailed,Face 6 2,Window,Ext Window,Face 5 2,,,,,,14.99,12.00,2.33,14.99,12.00,1.17,10.01,12.00,1.17,10.01,12.00,2.33;
-FenestrationSurface:Detailed,Face 17 2,Window,Ext Window,Face 16 2,,,,,,9.99,6.00,2.33,9.99,6.00,1.17,0.01,6.00,1.17,0.01,6.00,2.33;
-FenestrationSurface:Detailed,Face 29 2,Window,Ext Window,Face 28 2,,,,,,24.99,6.00,2.33,24.99,6.00,1.17,15.01,6.00,1.17,15.01,6.00,2.33;
+FenestrationSurface:Detailed,Face 17 2,Window,Ext Window,Face 16 2,,,,,,9.99,18.00,2.33,9.99,18.00,1.17,0.01,18.00,1.17,0.01,18.00,2.33;
+FenestrationSurface:Detailed,Face 29 2,Window,Ext Window,Face 28 2,,,,,,24.99,18.00,2.33,24.99,18.00,1.17,15.01,18.00,1.17,15.01,18.00,2.33;
 
 ! swin
 FenestrationSurface:Detailed,Face 11 2,Window,Ext Window,Face 10 2,,,,,,0.01,0,2.33,0.01,0,1.17,24.99,0,1.17,24.99,0,2.33;
 
 ! wwin
 FenestrationSurface:Detailed,Face 3 2,Window,Ext Window,Face 2 2,,,,,,0,11.99,2.33,0,11.99,1.17,0,0.01,1.17,0,0.01,2.33;
-FenestrationSurface:Detailed,Face 15 2,Window,Ext Window,Face 14 2,,,,,,0,5.99,2.33,0,5.99,1.17,0,12.01,1.17,0,12.01,2.33;
-FenestrationSurface:Detailed,Face 27 2,Window,Ext Window,Face 26 2,,,,,,15.00,5.99,2.33,15.00,5.99,1.17,15.00,12.01,1.17,15.00,12.01,2.33;
+FenestrationSurface:Detailed,Face 15 2,Window,Ext Window,Face 14 2,,,,,,0,17.99,2.33,0,17.99,1.17,0,12.01,1.17,0,12.01,2.33;
+FenestrationSurface:Detailed,Face 27 2,Window,Ext Window,Face 26 2,,,,,,15.00,17.99,2.33,15.00,17.99,1.17,15.00,12.01,1.17,15.00,12.01,2.33;
 
 Zone,Thermal Zone 7,0.00,0,0,7.00,,1,,,,,,Yes;
 Zone,Thermal Zone 8,0.00,0,0,7.00,,1,,,,,,Yes;
@@ -1097,6 +1097,19 @@ ElectricEquipment,
   ,                                       !- Fraction Radiant
   ,                                       !- Fraction Lost
   General;                                !- End-Use Subcategory
+ZoneInfiltration:DesignFlowRate,
+  Infiltration 1,                        !- Name
+  Space Type 1,                          !- Zone or ZoneList Name
+  Occpancy Schedule 1,                   !- Schedule Name
+  AirChanges/Hour,                         !- Design Flow Rate Calculation Method
+  ,                                        !- Design Flow Rate {m3/s}
+  ,                                        !- Flow per Zone Floor Area {m3/s-m2}
+  ,                                        !- Flow per Exterior Surface Area {m3/s-m2}
+  1.2,       !- Air Changes per Hour {1/hr}
+  1,                                       !- Constant Term Coefficient
+  ,                                       !- Temperature Term Coefficient
+  ,                                       !- Velocity Term Coefficient
+  ;                                       !- Velocity Squared Term Coefficient
 
 ! #################################################################################
 ! activity
