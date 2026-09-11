@@ -134,8 +134,9 @@ Users may evaluate LLM outputs using one or more of the following criteria:
 
 ## 📄 License & Citation
 
-Please cite this repository if used in academic or technical work:
+If you use **LLM-BEM-engineer** in academic research, technical work, or publications, please cite:
 
+```bibtex
 @article{jiang2027llmbem,
   title     = {LLM-BEM-engineer: A large language model-based multi-agent AI engineer for automated building energy modeling and analysis},
   author    = {Jiang, Gang and Chen, Jianli},
@@ -146,3 +147,8 @@ Please cite this repository if used in academic or technical work:
   publisher = {Elsevier},
   doi       = {10.1016/j.aei.2026.105209}
 }
+```
+
+**Paper:**  
+Jiang, G., & Chen, J. (2027). *LLM-BEM-engineer: A large language model-based multi-agent AI engineer for automated building energy modeling and analysis*. **Advanced Engineering Informatics, 77**, 105209.  
+https://doi.org/10.1016/j.aei.2026.105209
